@@ -1,9 +1,13 @@
+```json
 {
   "metadata": {
     "version": "2026.1",
     "last_updated": "2026-02-15",
     "currency": "USD",
-    "data_sources": ["MIT Living Wage Calculator Methodology", "Bureau of Labor Statistics"]
+    "data_sources": [
+      "MIT Living Wage Calculator Methodology",
+      "Bureau of Labor Statistics"
+    ]
   },
   "geographies": {
     "06037": {
@@ -57,3 +61,4 @@
     }
   }
 }
+```
