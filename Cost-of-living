@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "version": "2026.1",
+    "last_updated": "2026-02-15",
+    "currency": "USD",
+    "data_sources": ["MIT Living Wage Calculator Methodology", "Bureau of Labor Statistics"]
+  },
+  "geographies": {
+    "06037": {
+      "name": "Los Angeles County",
+      "state": "CA",
+      "type": "county",
+      "poverty_wage_hourly": 7.25,
+      "minimum_wage_hourly": 16.90,
+      "family_types": {
+        "1a_0c": {
+          "living_wage_hourly": 28.45,
+          "required_annual_pretax": 59176,
+          "expenses_annual": {
+            "housing": 19420,
+            "food": 4680,
+            "childcare": 0,
+            "healthcare": 3120,
+            "transportation": 5400,
+            "taxes": 11200,
+            "other": 5356
+          }
+        },
+        "1a_1c": {
+          "living_wage_hourly": 48.10,
+          "required_annual_pretax": 100048,
+          "expenses_annual": {
+            "housing": 24150,
+            "food": 6890,
+            "childcare": 15600,
+            "healthcare": 8900,
+            "transportation": 9200,
+            "taxes": 21300,
+            "other": 14008
+          }
+        },
+        "2a_2c_both_working": {
+          "living_wage_hourly": 34.15,
+          "note": "Reflects required hourly rate per individual worker",
+          "required_annual_pretax": 142064,
+          "expenses_annual": {
+            "housing": 28400,
+            "food": 12100,
+            "childcare": 31200,
+            "healthcare": 11400,
+            "transportation": 14100,
+            "taxes": 27500,
+            "other": 17364
+          }
+        }
+      }
+    }
+  }
+}
